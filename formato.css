@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(123, 222, 222);
+    color: blue;
+   
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: darkblue;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: blueviolet;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 50px;
+    margin: 20px;
+    color: red;
+    border: solid 3px black;
+}
+.box {
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    padding: 50px;
+    border: 2px solid red;
+    margin: 50px;
+
+}
+.box1 {
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    padding: 50px;
+    border: 2px solid red;
+    margin: 50px;
+
+}
+
+.box2 {
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    padding: 50px;
+    border: 2px solid red;
+    margin: 50px;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.column{
+    flex: 1;
+    padding: 10px;
+}
+
+@media(max-width){
+    .column{
+        flex: 100%;
+    }
+}
